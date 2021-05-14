@@ -49,7 +49,8 @@ body {
 
 .img {
 	display: block;
-	max-width: 250px;
+	width: 250px;
+	height: 250px;
 	box-shadow: 10px 20px 20px 0px rgba(0,0,0,0.12);
 }
 
@@ -74,10 +75,12 @@ body {
 
 .icon-prev {
 	width: 9px;
+	height: 14px;
 }
 
 .icon-next {
 	width: 10px;
+	height: 14px;
 } 
 
 .info-container {
@@ -115,6 +118,7 @@ body {
 		flex-direction: row;
 		background-size:  680px;
 		background-position: 46vw 8vh;
+		overflow: hidden;
 	}
 
 	.img-container {
@@ -122,8 +126,8 @@ body {
 	}
 
 	.img {
-		width: 100%;
-		max-width: 640px;
+		width: 532px;
+		height: 538px;
 	}
 
 	.btn-container {
@@ -140,10 +144,12 @@ body {
 
 	.icon-prev {
 		width: 10.5px;
+		height: 15px;
 	}
 
 	.icon-next {
 		width: 11.5px;
+		height: 15px;
 	}
 
 	.info-container {
@@ -179,7 +185,7 @@ body {
 
 @media (min-height: 1000px) {
 	.container {
-		background-position: 46vw 16.5vh;
+		background-position: 47vw 16.8vh;
 	}
 	.info-container {
 		background: url('./assets/svg/pattern-quotes.svg') 41% 31% / 14% no-repeat, 
